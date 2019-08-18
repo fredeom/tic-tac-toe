@@ -27,7 +27,6 @@ float cross_vertices [] = {
 };
 
 static void checkWinner(void) {
-  fprintf(stdout, "checkWinner\n");
   glLoadIdentity();
   glTranslatef((GLfloat) (0), (GLfloat) (0), 0.0f);
   glColor3f(1.0f, 0.5f, 0.5f);
